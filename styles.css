@@ -3,8 +3,65 @@
     --primary-color: #818CF8;
     --dark-gray: #6B7280;
     --light-gray: #c9cacc;
+    --white-default: white; 
 }
 
 body{
     background-color: var(--primary-color);
 }
+
+.section {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+
+.non-white {
+    background-color: var(--light-gray);
+}
+
+.white{
+    background-color: var(--white-default);
+}
+
+.avatar-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2em;
+    text-align: center;
+}
+
+.avatar-small{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--white-default);;
+    background-color: var(--primary-color);
+  }
+
+.avatar-medium{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--white-default);k;
+    background-color: var(--primary-color);
+  }
+
+.avatar-large{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--white-default);
+    background-color: var(--primary-color);
+  }
+
+
+.avatar-initials{
+    position: relative;
+    top: 30%;
+    font-weight: bold;
+    color: var(--white-default);
+}
+
+
+ 
