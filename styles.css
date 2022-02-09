@@ -1,10 +1,5 @@
 /* root element is declare the global css variables */
-:root {
-    --primary-color: #818CF8;
-    --dark-gray: #6B7280;
-    --light-gray: #c9cacc;
-    --white-default: white; 
-}
+@import "variables.css";
 
 body{
     background-color: var(--primary-color);
@@ -16,11 +11,11 @@ body{
 }
 
 
-.non-white {
+.bg-gray {
     background-color: var(--light-gray);
 }
 
-.white{
+.bg-white{
     background-color: var(--white-default);
 }
 
@@ -35,7 +30,7 @@ body{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid var(--white-default);;
+    border: 1px solid var(--white-default);
     background-color: var(--primary-color);
   }
 
@@ -43,7 +38,7 @@ body{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid var(--white-default);k;
+    border: 1px solid var(--white-default);
     background-color: var(--primary-color);
   }
 
