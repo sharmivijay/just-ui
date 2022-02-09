@@ -1,0 +1,38 @@
+@import "variables.css";
+
+
+.btn-close{
+    float: right;
+}
+
+.alert{
+    padding: 20px;
+    border-radius: 0.5em;
+    width: 55%;
+    margin-bottom: 15px;
+}
+
+.decline-alert{
+    background-color: var(--decline-red);
+    color: var(--decline-text);
+    border-color: var(--decline-border);
+}
+
+.warning-alert{
+    background-color: var(--warning-orange);
+    color: var(--warning-text);
+    border-color: var(--warning-border);
+}
+
+.success-alert{
+    background-color: var(--success-green);
+    color: var(--success-text);
+    border-color: var(--success-border);
+}
+
+.info-alert{
+    background-color: var(--info-blue);
+    color: var(--info-text);
+    border-color: var(--info-border);
+}
+
