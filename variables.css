@@ -3,4 +3,17 @@
     --dark-gray: #6B7280;
     --light-gray: #c9cacc;
     --white-default: white; 
+    --decline-red: #f8d7da;
+    --decline-border: #f5c6cb;
+    --decline-text: #721c24;
+    --warning-orange: #fff3cd;
+    --warning-border:#ffeeba;
+    --warning-text: #856404;
+    --success-green:#d4edda;
+    --success-border:#c3e6cb;
+    --success-text:#155724;
+    --info-blue: #d1ecf1;
+    --info-border:#bee5eb;
+    --info-text:#0c5460;
+    --black-default:black;
 }
