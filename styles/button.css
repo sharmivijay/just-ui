@@ -1,6 +1,5 @@
 .btn{
     padding: 0.5rem;
-    width: 7%;
     margin: 1rem;
     display: flex;  
     border-radius: 0.2rem;
@@ -20,6 +19,7 @@
 }
 
 .btn-link{
+    width: 10%;
     text-decoration: none;
     background-color: var(--success-green);
     border-color: var(--success-border);
@@ -28,7 +28,6 @@
 
 .icon-btn{
     padding: 0.5rem;
-    width: 3%;
     margin: 1rem;
     border-radius: 0.2rem;
     background-color:var(--info-blue);
@@ -37,7 +36,7 @@
 }
 
 .btn-name{
-    width: 7%;
+    max-width: 100%;
     background-color: var(--success-green);
 }
 
