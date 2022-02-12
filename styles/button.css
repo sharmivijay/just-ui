@@ -1,0 +1,45 @@
+.btn{
+    padding: 0.5rem;
+    width: 7%;
+    margin: 1rem;
+    display: flex;  
+    border-radius: 0.2rem;
+    
+}
+
+.btn-primary{
+    background-color: var(--info-blue);
+    border-color: var(--info-border);
+    color: var(--info-text);
+}
+
+.btn-secondary{
+    background-color: var(--warning-orange);
+    border-color: var(--warning-border);
+    color: var(--warning-text);
+}
+
+.btn-link{
+    text-decoration: none;
+    background-color: var(--success-green);
+    border-color: var(--success-border);
+    color: var(--success-text);
+}
+
+.icon-btn{
+    padding: 0.5rem;
+    width: 3%;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    background-color:var(--info-blue);
+    border-color: var(--info-border);
+    color: var(--info-text);
+}
+
+.btn-name{
+    width: 7%;
+    background-color: var(--success-green);
+}
+
+
+
