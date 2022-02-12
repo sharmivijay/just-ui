@@ -7,5 +7,6 @@
     1.with images
     2.with initials
 # Batches
-    
+    1. on icons
+    2. on avatar    
 
