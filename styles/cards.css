@@ -1,0 +1,110 @@
+.card{
+    padding :0;
+    margin: 0 10px;
+    max-width: 75rem;
+}
+
+.card-dismiss{
+    position: relative;
+}
+
+.card-overlay-text{
+    position: relative;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.top-right{
+    position: absolute;
+    top:8px;
+    right:8px;
+}
+
+.top-left{
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom:108px;
+    left:8px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom:108px;
+    right:8px;
+}
+
+.center{
+    position: absolute;
+    top:30%;
+    right: 45%;
+}
+
+.card-badges{
+    padding: 0;
+    max-width: 75rempx;
+    margin: 0 10px;
+    position: relative;
+    z-index: 0;
+} 
+
+.card-img{
+  max-width: 100%;
+  vertical-align: middle;
+  
+}
+
+@media (min-width: 40rem) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .card {
+    width: 30%;
+  }
+}
+
+
+.card-content {
+    color: var(--success-text);
+    padding: 1rem;
+    background-color: var(--success-border);
+}
+
+.card-title {
+  margin: 0px;
+}
+
+
+.card-badges::before{
+    position:absolute ;
+    content: "";
+    background-color:darkgreen;
+    height: 7%;
+    width: 7%;
+    top: 2rem;
+    right: -0.5rem;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.card-badges::after{
+    position: absolute;
+    content: 'New Pic';
+    top: 11px;
+    right: -14px;
+    padding: 0.5rem;
+    width: 30%;
+    background: darkgreen;
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+
+
+
