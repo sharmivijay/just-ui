@@ -31,7 +31,7 @@
     color: white;
   }
 
-  .badge-notification .avatar-large{
+  .badge-notification .avatar-lg{
       border-color: var(--light-gray);
   }
   
