@@ -1,7 +1,3 @@
-
-
-
-
 .input{
     padding: 8px;
     border-radius: 2px;
@@ -25,23 +21,21 @@
 
 }
 
-.valid-input{   
+.valid-input,.error-input{
     display: flex;
     align-items: flex-start;
-    margin:1px;
-    color: var(--green-default);
-    border-color: var(--green-default);
+    margin: 1px ;
     border-width: 2px;
     font-weight: bold;
 }
 
+.valid-input{   
+    color: var(--green-default);
+    border-color: var(--green-default);
+}
+
 .error-input{
-    display: flex;
-    align-items: flex-start;
-    margin: 1px ;
     color: var(--red-default);
     border-color: var(--red-default);
-    border-width: 2px;
-    font-weight: bold;
 }
 
