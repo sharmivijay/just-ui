@@ -1,0 +1,53 @@
+/* 
+This is by design for 
+<h1> tag to be behave like this 
+i.e. size reduce specially 
+for <article>, <aside>, <nav>, <section> 
+and it will keep on decreasing as structure 
+will become more deep i.e. <article> inside
+ <article> inside <article> 
+ then size at each level will reduce.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+h1{
+    font-size: 2em;
+}
+
+.txt-style{
+    font-family: 'Chilanka', cursive;
+}
+
+.lg-txt{
+    font-size: var(--lg-text);
+}
+
+.md-txt{
+    font-size: var(--md-text);;
+}
+
+.sm-txt{
+    font-size: var(--sm-text);;
+}
+
+.gray-txt{
+    color: var(--dark-gray);
+}
+
+.highlight-txt{
+    background-color: var(--info-text);
+    color: var(--white-default);
+}
+
+.center-txt{
+    text-align: center;
+}
+
+.right-txt{
+    text-align: right;
+}
+
+.left-txt{
+    text-align: left;
+}
