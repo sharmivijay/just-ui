@@ -3,14 +3,14 @@
 }
 
 .rating-lg{
-    font-size: 2.25rem;
+    font-size: var(--lg-text);
 }
   
 
 .rating-md{
-    font-size: 1.5rem;
+    font-size: var(--md-text);
 }
 
 .rating-sm{
-    font-size: 1.125rem;
+    font-size: var(--sm-text);
 }
