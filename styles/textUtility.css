@@ -20,15 +20,15 @@ h1{
 }
 
 .lg-txt{
-    font-size: 2rem;
+    font-size: var(--lg-text);
 }
 
 .md-txt{
-    font-size: 1.5rem;
+    font-size: var(--md-text);;
 }
 
 .sm-txt{
-    font-size: 1.2rem;
+    font-size: var(--sm-text);;
 }
 
 .gray-txt{
@@ -51,6 +51,3 @@ h1{
 .left-txt{
     text-align: left;
 }
-
-
-
