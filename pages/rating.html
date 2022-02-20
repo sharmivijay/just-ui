@@ -5,12 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/styles/button.css" >
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>Button</title>
+    <link rel="stylesheet" href="/styles/rating.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rating</title>
 </head>
 <body>
     <nav class="navigation">
@@ -37,30 +34,52 @@
         <a href="/pages/textUtility.html">Utility</a>
         <a href="/pages/rating.html">Rating</a>
       </div>
-      <div class="content">
+    <div class="content">
 
-    <h2>Buttons</h2>
+    <h2>Ratings</h2>
     <section class="section bg-gray">
-        <h4>Basic buttons</h4>
-        <button class="btn btn-primary">Primary</button>
-        <button class="btn btn-secondary">Secondary</button>
-        
-        <h4>Link as a Button</h4>
-        <a class="btn btn-link" href="/">Click Me!</a>
-
-        <h4>Icon button</h4>
-        <button class="icon-btn"> <i class="fa fa-home"></i></button>
-        <button class="icon-btn"> <i class="fa fa-folder"></i></button> 
-
-        <h4>Icon button with text</h4>
-        <button class="icon-btn btn-name"> <i class="fa fa-home"></i> Home</button>
-        <button class="icon-btn btn-name"> <i class="fa fa-folder"></i> Folder</button>
-
-        <h4>Floating Action Button</h4>
-        <button class="icon-btn"> <i class="fa fa-bars"></i></button>
-        <button class="icon-btn"> <i class="fa fa-plus"></i></button>
-        <button class="icon-btn"> <i class="fa fa-close"></i></button>
+        <div class="rating rating-lg">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
     </section>
+    <section class="section bg-gray">
+        <div class="rating rating-md">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </section>
+    <section class="section bg-gray">
+        <div class="rating rating-sm">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+    </section>
+    <section class="section bg-gray">
+        <div class="rating rating-sm">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            
+        </div>
+        </section>
+    <section class="section bg-gray">
+            <div class="rating rating-sm">
+                <span class="fa fa-star checked"></span>
+            </div>       
+    </section>
+
+    <h2>Range slider</h2>
+    <section class="section bg-gray">
+        <div>
+            <input type="range" min="1" max="10" class="slider">
+        </div>       
+</section>
     </div>
     <footer class="footer">
         <p class="footer-heading">You can also find me here</p>

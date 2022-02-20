@@ -1,0 +1,16 @@
+.checked{
+    color: var(--primary-color);
+}
+
+.rating-lg{
+    font-size: var(--lg-text);
+}
+  
+
+.rating-md{
+    font-size: var(--md-text);
+}
+
+.rating-sm{
+    font-size: var(--sm-text);
+}
