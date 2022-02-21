@@ -1,0 +1,32 @@
+.grid-normal{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+}
+
+.grid-content{
+    background-color: var(--info-blue);
+    border: 1px solid var(--info-border);
+}
+
+.grid-stylish{
+    display: grid;
+    grid-template-areas:
+      'header main-content'
+      'nav  main-content';
+    gap: 1rem;
+    margin-bottom: 0%;
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+}
+.grid-item{
+    background-color: var(--info-blue);
+    border: 1px solid var(--info-border);
+}
+.grid-header{ grid-area: header;}
+.grid-main{ grid-area: main-content;}
+.grid-nav{ grid-area: nav;}
